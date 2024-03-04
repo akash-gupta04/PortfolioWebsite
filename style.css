@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    right: 0;
+    left: 0;
+}
+
+body {
+    background-color: rgb(43, 4, 50);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    background-color: rgb(59, 11, 68);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+nav ul li a:hover {
+    color: rgb(204, 8, 204);
+    transition: 0.3s;
+}
+nav ul li a.active {
+    color: rgb(204, 8, 204);
+}
+
+.left {
+    font-size: 2rem;
+}
+#menu-icon {
+    color: white;
+    display: none;
+}
+main hr {
+    border: 0;
+    height: 2px;
+    background-color: #9f7dab;
+    margin: 60px 84px;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 200px 100px;
+}
+
+.leftSection{
+    margin: 0px 150px;
+    padding: 10px;
+}
+
+.leftSection h1{
+    font-size: 3.0rem ;
+}
+.leftSection h3{
+    font-size: 2rem ;
+}
+.leftSection p{
+    font-size: 1.5rem;
+}
+.social-media a {
+    width: 3rem;
+    height: 3rem;
+    background: transparent;
+    border: .2rem solid  rgb(204, 8, 204);;
+    border-radius: 50%;
+    font-size: 3rem;
+    color: rgb(204, 8, 204);
+    margin: 3rem 2.5rem 3rem 0;
+    transition: .5s,ease;
+}
+.social-media a:hover{
+   background:  rgb(204, 8, 204);
+   color: #240829;
+   box-shadow: 0 0 1rem  rgb(204, 8, 204);
+}
+.rightSection img {
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px #9f7dab;
+    width: 50%;
+    margin: 0px 150px;
+    padding: 10px;
+}
+
+.rightSection img:hover {
+    box-shadow: 0px 0px 25px #9f7dab;
+    transition: 1s;
+}
+
+.purple {
+    color: rgb(204, 8, 204);
+}
+
+#element {
+    color: rgb(204, 8, 204);
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+}
+
+.light-purple {
+    color: #9f7dab;
+}
+
+footer {
+    background-color: #240829;
+}
+
+.footer {
+    display: flex;
+    padding: 25px 125px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer > div {
+    width: 225px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: #9f7dab;
+    padding: 12px 0px;
+}
