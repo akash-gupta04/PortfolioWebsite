@@ -1,8 +1,10 @@
-document.addEventListener("DOMContentLoaded", function() {
-    var typed = new Typed('#element', {
-        strings: ['Backend Web Developer', 'Graphic Designer', 'Gamer'],
-        typeSpeed: 50,
-        backSpeed: 50,
-        loop: true
+let section = document.querySelectorAll('section');
+let navLinks = document.querySelectorAll('header nav a');
+
+window.onscroll = () => {
+    section.forEach(sec =>{
+        let top = window.scrollY;
+        let offset = sec.offset;
+        let height = sec.offsetTop -150;
     });
-});
+};

@@ -1,100 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akash | Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="style.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+    <title>Portfolio</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header>
-        <nav>
-            <div class="left">Portfolio
-                <i class="bx bx-menu" id="menu-icon"></i>
-            </div>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
 
-            <div class="right">
-                <ul>
-                    <li><a href="#home" class="active">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contacts</a></li>
-                </ul>
-            </div>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
-    <main>
-        <section class="firstSection">
-            <div class="leftSection">
-                <div>
-                    <h3>Hello, It' me</h3>
-                    <h1><span class="purple">Akash Gupta</span></h1>
-                    <h3>and I'm a <span id="element"></span></h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s</p>
-                </div>
-                <div class="social-media">
-                    <a href="https://twitter.com/akash_gupta2004" class="bx bxl-twitter"></a>
-                    <a href="https://www.instagram.com/akash8_gupta/" class="bx bxl-instagram-alt"></a>
-                    <a href="https://www.linkedin.com/in/akash-gupta-6a447a237/" class="bx bxl-linkedin-square"></a>
-                    <a href="https://github.com/Akashthepro" class="bx bxl-github"></a>
-                </div>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, My name is</h3>
+            <h1>Akash Gupta</h1>
+            <h3>And I'm a <span>Web Developer</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam optio illo saepe repellat, temporibus debitis iusto minima! Culpa, officiis </p>
+            <div class="social-media">
+                <a href="https://github.com/Akashthepro"target="_blank"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.linkedin.com/in/akash-gupta-6a447a237" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100064582334842" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/akash8_gupta" target="_blank"><i class='bx bxl-instagram-alt' ></i></a>
             </div>
-            <div class="rightSection">
-                <img src="Akash.png" alt="">
+            <a href="SecurityResume3.pdf " target="_blank" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="home.png" alt="home-image">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="about.png" alt="about-image">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About  <span>Me</span></h2>
+            <h3>Frontend Developer!</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro minima dignissimos accusamus voluptates rerum tempora neque magnam aut beatae, cupiditate provident voluptatibus perferendis enim animi voluptatem quae soluta in voluptate.
+            </p>
+        <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services<span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quae quas ea repudiandae ipsa ipsam mollitia tempore velit.</p>
+                <a href="#" class="btn">Read More</a>
             </div>
-        </section>
-        <hr>
-        <section class="secondSection">
-            <span class="light-purple">What I have done so far</span>
-            <h1>Projects</h1>
-        </section>
-    </main>
-    <footer>
-        <div class="footer">
-            <div class="footer-first">
-                <h3>Akash Dev Portfolio</h3>
+            <div class="services-box">
+                <i class='bx bx-paint'></i>
+                <h3>Graphic Designer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quae quas ea repudiandae ipsa ipsam mollitia tempore velit.</p>
+                <a href="#" class="btn">Read More</a>
             </div>
-            <div class="footer-second">
-                <ul>
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
-                </ul>
-            </div>
-            <div class="footer-third">
-                <ul style="list-style: square;">
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
-                </ul>
-            </div>
-            <div class="footer-fourth">
-                <ul>
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
-                </ul>
+            <div class="services-box">
+                <i class='bx bxs-terminal'></i>
+                <h3>Competitve Programming</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quae quas ea repudiandae ipsa ipsam mollitia tempore velit.</p>
+                <a href="#" class="btn">Read More</a>
             </div>
         </div>
-        <div class="footer-rights">
-            Copyright &#169; | website | All rights reserved
+    </section>
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest<span>Project
+        </span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="Portfoliosample1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>VirtuAI</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos distinctio in quasi laudantium tempora repellendus. </p>
+                    <a href="https://github.com/Akashthepro/VirtuAI" target="_blank"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="Portfoliosample2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos distinctio in quasi laudantium tempora repellendus. </p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div><div class="portfolio-box">
+                <img src="Portfoliosample3.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos distinctio in quasi laudantium tempora repellendus. </p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div><div class="portfolio-box">
+                <img src="Portfoliosample4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos distinctio in quasi laudantium tempora repellendus. </p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="Portfoliosample5.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos distinctio in quasi laudantium tempora repellendus. </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="Portfoliosample5.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos distinctio in quasi laudantium tempora repellendus. </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name"> 
+                <input type="email" placeholder="Email Address"> 
+
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number"> 
+                <input type="text" placeholder="Email Subject"> 
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn" >
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Akash Gupta | All Rights Reserved.</p>
+        </div>
+        <div class="footer-icontop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
         </div>
     </footer>
+
     <script src="script.js"></script>
 </body>
-
 </html>
