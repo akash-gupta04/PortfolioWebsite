@@ -29,16 +29,4 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" height="40" alt="javascript logo"  />
 </div>
     </li>
-  <li>
-    <h3 align="center"> Social Media Links: </h3>
-    <div align="center">
-  <a href="https://www.linkedin.com/in/akash-gupta-6a447a237/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
-  </a>
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40" alt="twitter logo"  />
-      <a href="https://www.instagram.com/akash8_gupta" target="_blank">
-          <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo"  />
-      </a>
-    </div>
-  </li>
 </ul>
