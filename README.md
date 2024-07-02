@@ -16,7 +16,7 @@
 
 <ul style="list-style: square;">
   <li>
-    <h3 align="left"> Tech Stack:</h3>
+    <h3 align="center"> Tech Stack:</h3>
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"  />
   <img width="12" />
@@ -34,7 +34,7 @@
 </div>
     </li>
   <li>
-    <h3 align="left"> Social Media Links: </h3>
+    <h3 align="center"> Social Media Links: </h3>
     <div align="left">
   <a href="https://www.linkedin.com/in/akash-gupta-6a447a237/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
